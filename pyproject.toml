@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.urls]
-"homepage" = "https://github.com/wsu2059q/oopz"
+"homepage" = "https://github.com/wsu2059q/ErisPulse-OopzAdapter"
 
 [project.entry-points."erispulse.adapter"]
 oopz = "OopzAdapter:OopzAdapter"
