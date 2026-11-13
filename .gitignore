@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# 测试与工具
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+
+# 本地配置与运行产物
+config/
+.erispulse/
+test/config.toml
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# 工具产物
+.mimosa/
+
+# 本地脚手架（含虚拟环境）
+my_erispulse_project/

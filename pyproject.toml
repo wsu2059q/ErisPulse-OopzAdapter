@@ -1,0 +1,26 @@
+[project]
+name = "ErisPulse-OopzAdapter"
+version = "0.1.0"
+description = "ErisPulse的Oopz用户账号适配模块（非官方接口）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "wsu2059", email = "wsu2059@qq.com" }
+]
+dependencies = [
+    "cryptography"
+]
+
+[project.urls]
+"homepage" = "https://github.com/wsu2059q/oopz"
+
+[project.entry-points."erispulse.adapter"]
+oopz = "OopzAdapter:OopzAdapter"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["OopzAdapter"]
